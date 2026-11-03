@@ -1,0 +1,156 @@
+<blockquote>
+
+</blockquote>
+<p>En mi publicación anterior compartía una reflexión sobre cómo descubrir la diferencia entre <strong>IA generativa, IA agéntica y agentes de IA</strong> cambió la forma en la que interpreto el proyecto que estoy desarrollando.</p>
+<p>Al principio pensé que simplemente había aprendido una nueva clasificación de la Inteligencia Artificial. Sin embargo, después de leer el artículo de <a href="https://www.linkedin.com/in/victorperis/"><strong>Víctor Peris,</strong></a> profundizar en las conversaciones que generó y seguir investigando por mi cuenta, comprendí que el aprendizaje era mucho más profundo.</p>
+<p>No estaba incorporando un concepto nuevo.</p>
+<p>Estaba encontrando el siguiente paso lógico de todo lo que llevaba meses construyendo.</p>
+<p>Mirando hacia atrás, me di cuenta de que prácticamente todos los artículos que he ido publicando durante los últimos meses hablaban, sin saberlo, del mismo proceso: <strong>cómo evoluciona nuestra forma de pensar cuando un proyecto empieza a crecer</strong>.</p>
+<p>No eran publicaciones independientes.</p>
+<p>Eran piezas de un mismo recorrido.</p>
+<p><strong>Todo empezó hablando de arquitectura</strong></p>
+<p>Las primeras reflexiones nacieron cuando comencé a preguntarme por qué muchos proyectos terminan siendo difíciles de mantener.</p>
+<p>En aquel momento escribí sobre el paso de <strong>crear interfaces a diseñar arquitectura</strong>, defendiendo una idea que sigo compartiendo hoy:</p>
+<p>Programar no es lo mismo que diseñar software.</p>
+<p>Más adelante profundicé en cómo una aplicación evoluciona desde un pequeño prototipo hasta convertirse en un sistema escalable.</p>
+<p>Después apareció otra reflexión todavía más importante para mí: el <strong>modelo cognitivo del desarrollador</strong>.</p>
+<p>Ahí defendía que el verdadero cambio profesional no consiste en aprender nuevos frameworks.</p>
+<p>Consiste en cambiar la forma de representar mentalmente un sistema.</p>
+<p>Pasar de pensar en ventanas.</p>
+<p>A pensar en servicios.</p>
+<p>Después en flujos.</p>
+<p>Y finalmente en arquitectura.</p>
+<p>Ese cambio de mentalidad me llevó a escribir también sobre arquitectura evolutiva, escalabilidad y sobre la diferencia entre la arquitectura ideal que solemos estudiar y la arquitectura real con la que convivimos en las empresas.</p>
+<p>En aquel momento pensaba que estaba escribiendo únicamente sobre ingeniería de software.</p>
+<p>Hoy creo que estaba preparando el terreno para comprender algo más grande.</p>
+<p><strong>Después llegaron dos proyectos completamente distintos</strong></p>
+<p>Mientras escribía todas esas reflexiones estaba desarrollando dos aplicaciones muy diferentes entre sí.</p>
+<p>La primera estaba orientada a la <strong>Inteligencia Artificial Local</strong>.</p>
+<p>El reto consistía en conseguir que múltiples modelos convivieran dentro de una misma aplicación gestionando CPU, GPU, memoria, OCR, embeddings y modelos multimodales.</p>
+<p>Aquella experiencia me dejó una conclusión muy clara.</p>
+<p><strong>El verdadero problema nunca fue ejecutar un modelo.</strong></p>
+<p>El verdadero problema era construir una arquitectura capaz de coordinar muchos modelos de forma eficiente.</p>
+<p>La inteligencia no estaba únicamente en el modelo.</p>
+<p>Empezaba a aparecer en la arquitectura.</p>
+<p>El segundo proyecto tenía un objetivo completamente distinto.</p>
+<p>Una plataforma de procesamiento inteligente de documentos.</p>
+<p>OCR.</p>
+<p>Modelos de visión.</p>
+<p>LLM.</p>
+<p>Clasificación documental.</p>
+<p>Extracción de información.</p>
+<p>Validaciones.</p>
+<p>Pipelines.</p>
+<p>Motores especializados.</p>
+<p>Con el tiempo fui incorporando reglas para decidir automáticamente qué herramienta utilizar en cada situación.</p>
+<p>Si un documento ya contiene texto...</p>
+<p>...evitar OCR.</p>
+<p>Si un OCR ofrece baja confianza...</p>
+<p>...probar otro.</p>
+<p>Si una estrategia falla...</p>
+<p>...cambiar automáticamente.</p>
+<p>Si un LLM no aporta valor...</p>
+<p>...no ejecutarlo.</p>
+<p>Durante meses pensé que aquello era simplemente una buena <strong>capa de configuración</strong>.</p>
+<p>Hoy creo que era el inicio de otra cosa.</p>
+<p><strong>El concepto que hizo encajar todas las piezas</strong></p>
+<p>Cuando leí la publicación de <a href="https://www.linkedin.com/in/dcarrero/"><strong>Víctor Peris</strong></a> comprendí algo que hasta entonces no había sido capaz de verbalizar.</p>
+<p>Aquella capa ya no era únicamente una configuración avanzada.</p>
+<p>Era una <strong>capa de decisión</strong>.</p>
+<p>Un componente capaz de analizar el contexto.</p>
+<p>Seleccionar herramientas.</p>
+<p>Elegir estrategias.</p>
+<p>Cambiar de flujo cuando una decisión no obtiene el resultado esperado.</p>
+<p>Y optimizar recursos de forma dinámica.</p>
+<p>No estaba construyendo únicamente automatizaciones.</p>
+<p>Estaba empezando a diseñar una arquitectura con principios propios de la <strong>IA agéntica</strong>.</p>
+<p>Y esa diferencia cambió completamente mi perspectiva.</p>
+<p>Porque entendí que el verdadero valor no consiste en añadir más modelos.</p>
+<p>Consiste en decidir mejor cuándo utilizar cada uno.</p>
+<p><strong>Lo más interesante vino después: la conversación</strong></p>
+<p>Después de publicar mi reflexión anterior seguí leyendo muchos comentarios de otros profesionales.</p>
+<p>Y ocurrió algo que valoro muchísimo.</p>
+<p>Cada persona estaba observando el problema desde un ángulo diferente.</p>
+<p>Una de las aportaciones que más me hizo reflexionar fue la de <strong>David Carrero</strong>.</p>
+<p>Su planteamiento era claro:</p>
+<p><strong>La IA agéntica no es únicamente un problema de modelos. Es, sobre todo, un problema de infraestructura.</strong></p>
+<p>Y creo que tiene razón.</p>
+<p>Hasta ese momento yo estaba muy centrado en cómo construir un sistema capaz de tomar decisiones.</p>
+<p>Pero esa conversación me hizo ampliar el foco.</p>
+<p>Porque un sistema que decide también necesita:</p>
+<ul>
+<li><p>observabilidad;</p></li>
+<li><p>telemetría;</p></li>
+<li><p>trazabilidad;</p></li>
+<li><p>gestión del estado;</p></li>
+<li><p>recuperación ante fallos;</p></li>
+<li><p>monitorización;</p></li>
+<li><p>auditoría de decisiones.</p></li>
+</ul>
+<p>Sin esa infraestructura resulta muy difícil confiar en un sistema autónomo.</p>
+<p>Curiosamente, esa reflexión conectaba perfectamente con otro aprendizaje que ya había obtenido desarrollando mi plataforma de IA Local.</p>
+<p>La inteligencia nunca reside únicamente en el modelo.</p>
+<p>También reside en toda la arquitectura que hace posible que ese modelo funcione de forma estable.</p>
+<p>También encontré otras ideas con las que coincidía parcialmente.</p>
+<p>Algunos profesionales defendían que el siguiente paso consistía en construir agentes cada vez más autónomos.</p>
+<p>Mi visión, al menos hoy, es ligeramente distinta.</p>
+<p>Creo que, en muchos proyectos empresariales, el objetivo no debería ser maximizar la autonomía.</p>
+<p>Debería ser maximizar el criterio.</p>
+<p>Prefiero un sistema que tome menos decisiones, pero que estén justificadas, sean auditables y puedan explicarse.</p>
+<p>Antes que un sistema que haga muchas cosas sin que entendamos por qué las ha hecho.</p>
+<p>Quizá dentro de unos años cambie de opinión.</p>
+<p>Pero hoy ese es el camino que quiero explorar.</p>
+<p><strong>Aprender también consiste en conectar ideas</strong></p>
+<p>Cada artículo.</p>
+<p>Cada libro.</p>
+<p>Cada publicación.</p>
+<p>Cada comentario.</p>
+<p>Cada conversación técnica.</p>
+<p>Cada error de programación.</p>
+<p>Cada refactorización.</p>
+<p>Cada prueba que termina fallando.</p>
+<p>Todo termina formando parte del mismo aprendizaje.</p>
+<p>Durante mucho tiempo pensé que aprender consistía en incorporar conocimientos nuevos.</p>
+<p>Ahora creo que aprender consiste, sobre todo, en <strong>conectar conocimientos que parecían independientes</strong>.</p>
+<p>Hoy veo una línea muy clara entre todos los artículos que he ido escribiendo.</p>
+<p>Primero aprendí a separar responsabilidades.</p>
+<p>Después aprendí a pensar en arquitectura.</p>
+<p>Más tarde entendí la importancia del pensamiento sistémico.</p>
+<p>Después llegó la IA Local.</p>
+<p>Más tarde el diseño de pipelines inteligentes.</p>
+<p>Y ahora aparece la IA agéntica como una evolución natural de todo ese recorrido.</p>
+<p>No porque alguien me haya enseñado una nueva palabra.</p>
+<p>Sino porque, por fin, he encontrado un concepto capaz de explicar hacia dónde estaba evolucionando mi forma de diseñar software.</p>
+<p><strong>La siguiente etapa</strong></p>
+<p>No sé exactamente cómo terminará evolucionando este proyecto.</p>
+<p>Seguramente cambiará muchas veces más.</p>
+<p>Pero sí tengo clara una cosa.</p>
+<p>Creo que durante los próximos años la ingeniería de software va a vivir una transformación importante.</p>
+<p>Pasaremos de construir aplicaciones que ejecutan tareas...</p>
+<p>...a diseñar sistemas capaces de analizar el contexto, seleccionar estrategias y decidir cuál es la mejor forma de resolver un problema.</p>
+<p>Y probablemente esa sea la diferencia entre utilizar Inteligencia Artificial...</p>
+<p>...y diseñar arquitectura para Inteligencia Artificial.</p>
+<p><strong>Lecturas relacionadas</strong></p>
+<ul>
+<li><p><strong>De crear interfaces a diseñar arquitectura real</strong></p></li>
+<li><p><strong>Evolución de la arquitectura de software: del prototipo a sistemas escalables empresariales</strong></p></li>
+<li><p><strong>Modelo cognitivo del desarrollador</strong></p></li>
+<li><p><strong>Arquitectura Evolutiva Escalable</strong></p></li>
+<li><p><strong>Arquitectura de software: lo ideal vs la realidad en empresas reales</strong></p></li>
+<li><p><strong>Inteligencia Artificial Local: el verdadero reto no es ejecutar un modelo</strong></p></li>
+<li><p><strong>Desarrollar software con IA: cuando el problema ya no es escribir código</strong></p></li>
+<li><p><strong>Aprender IA no es solo usar herramientas, es cambiar la forma de pensar</strong></p></li>
+</ul>
+<p><strong>📚 Artículos relacionados: evolución de mi aprendizaje en arquitectura de software e Inteligencia Artificial</strong></p>
+<p>A lo largo de los últimos meses he ido documentando cómo ha evolucionado mi forma de entender la arquitectura de software, la Inteligencia Artificial Local y, más recientemente, la IA agéntica. Estos artículos forman parte de ese recorrido:</p>
+<p><strong>🏗️ Arquitectura de software</strong></p>
+<p><strong>1. De crear interfaces a diseñar arquitectura real</strong> <a href="https://www.linkedin.com/pulse/de-crear-interfaces-dise%25C3%25B1ar-arquitectura-real-diginosia-com-v1sve/?trackingId=XeOy7mK7nytT6RO5toZ4Uw%3D%3D"><strong>https://www.linkedin.com/pulse/de-crear-interfaces-dise%25C3%25B1ar-arquitectura-real-diginosia-com-v1sve/?trackingId=XeOy7mK7nytT6RO5toZ4Uw%3D%3D</strong></a></p>
+<p><strong>2. Evolución de la arquitectura de software: del prototipo a sistemas escalables empresariales</strong> <a href="https://www.linkedin.com/pulse/evoluci%25C3%25B3n-de-la-arquitectura-software-del-prototipo-vhose/?trackingId=eCd%2FzGg4LqBJkAszo8z%2Fmg%3D%3D"><strong>https://www.linkedin.com/pulse/evoluci%25C3%25B3n-de-la-arquitectura-software-del-prototipo-vhose/?trackingId=eCd%2FzGg4LqBJkAszo8z%2Fmg%3D%3D</strong></a></p>
+<p><strong>3. Modelo cognitivo del desarrollador: de ejecutar código a diseñar sistemas que piensan</strong> <a href="https://www.linkedin.com/pulse/modelo-cognitivo-del-desarrollador-diginosia-com-pr5ve/?trackingId=%2F4EW7rgIjdcfpdteejcvaQ%3D%3D"><strong>https://www.linkedin.com/pulse/modelo-cognitivo-del-desarrollador-diginosia-com-pr5ve/?trackingId=%2F4EW7rgIjdcfpdteejcvaQ%3D%3D</strong></a></p>
+<p><strong>4. Arquitectura Evolutiva Escalable: cómo crecer sin reescribir todo</strong> <a href="https://www.linkedin.com/pulse/arquitectura-evolutiva-escalable-c%25C3%25B3mo-crecer-sin-todo-xnrze/?trackingId=1uO1qDxC1EMaz0O0YU7L0g%3D%3D"><strong>https://www.linkedin.com/pulse/arquitectura-evolutiva-escalable-c%25C3%25B3mo-crecer-sin-todo-xnrze/?trackingId=1uO1qDxC1EMaz0O0YU7L0g%3D%3D</strong></a></p>
+<p><strong>5. Arquitectura de software: lo ideal vs la realidad en empresas reales</strong> <a href="https://www.linkedin.com/pulse/arquitectura-de-software-lo-ideal-vs-la-realidad-en-9egfe/?trackingId=F%2B8Sc3Pka6Gi0jsyzGL3Ig%3D%3D"><strong>https://www.linkedin.com/pulse/arquitectura-de-software-lo-ideal-vs-la-realidad-en-9egfe/?trackingId=F%2B8Sc3Pka6Gi0jsyzGL3Ig%3D%3D</strong></a></p>
+<p><strong>🤖 Inteligencia Artificial Local y arquitectura de IA</strong></p>
+<p><strong>6. Inteligencia Artificial Local (Local AI): el verdadero reto no es ejecutar un modelo, sino diseñar la arquitectura que lo hace posible</strong> <a href="https://www.linkedin.com/pulse/inteligencia-artificial-local-ai-el-verdadero-reto-es-7jcke/?trackingId=sXG2tmjhezeYqrq0pPcWlg%3D%3D"><strong>https://www.linkedin.com/pulse/inteligencia-artificial-local-ai-el-verdadero-reto-es-7jcke/?trackingId=sXG2tmjhezeYqrq0pPcWlg%3D%3D</strong></a></p>
+<p><strong>7. Desarrollar software con IA: cuando el problema ya no es escribir código, sino hacer que todo el sistema funcione</strong> <a href="https://www.linkedin.com/pulse/desarrollar-software-con-ia-cuando-el-problema-ya-es-xcv0e/?trackingId=%2FpnXJ2%2Bx8jT96s%2B%2Bmic7Sg%3D%3D"><strong>https://www.linkedin.com/pulse/desarrollar-software-con-ia-cuando-el-problema-ya-es-xcv0e/?trackingId=%2FpnXJ2%2Bx8jT96s%2B%2Bmic7Sg%3D%3D</strong></a></p>
+<p><strong>🧠 Aprendizaje e IA agéntica</strong></p>
+<p><strong>8. Aprender IA no es solo usar herramientas, es cambiar la forma de pensar</strong> <a href="https://www.linkedin.com/pulse/aprender-ia-es-solo-usar-herramientas-cambiar-la-de-u1nge/"><strong>https://www.linkedin.com/pulse/aprender-ia-es-solo-usar-herramientas-cambiar-la-de-u1nge/</strong></a></p>

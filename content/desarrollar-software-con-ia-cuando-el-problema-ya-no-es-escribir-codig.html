@@ -1,0 +1,105 @@
+<blockquote>
+
+</blockquote>
+<p>Hace unos días compartía una reflexión sobre uno de los mayores desafíos de la <strong>Inteligencia Artificial Local (Local AI)</strong>: el verdadero reto no es ejecutar un modelo, sino diseñar la arquitectura que permite que todo el ecosistema funcione.</p>
+<p>Durante estos días he vuelto a comprobar esa idea... pero desde otra perspectiva.</p>
+<p>Porque desarrollar software asistido por IA no elimina los problemas de ingeniería.</p>
+<p>En muchos casos, simplemente los transforma.</p>
+<p>Hoy es posible generar cientos o miles de líneas de código en cuestión de minutos.</p>
+<p>Lo realmente difícil aparece después.</p>
+<p><strong>El aprendizaje detrás del código</strong></p>
+<p>En mi caso, además, este camino tiene un componente añadido.</p>
+<p>Gran parte de este proyecto ha sido un proceso de <strong>autoaprendizaje</strong>.</p>
+<p>Eso significa salir continuamente de mi zona de confort, leer documentación técnica, experimentar con tecnologías nuevas y aprender sobre la marcha.</p>
+<p>Y cuando uno aprende de forma autodidacta, el proceso rara vez es lineal.</p>
+<p>Hay que leer mucho.</p>
+<p>Hay que probar.</p>
+<p>Hay que romper cosas.</p>
+<p>Hay que equivocarse muchas veces.</p>
+<p>Hay momentos de frustración.</p>
+<p>Y también muchas horas haciendo preguntas a la IA.</p>
+<p>No considero que eso reste valor al aprendizaje.</p>
+<p>Al contrario.</p>
+<p>Para mí, la IA es una herramienta de apoyo, igual que puede serlo la documentación oficial, un libro técnico o una conversación con otro desarrollador.</p>
+<p>La diferencia es que ahora ese diálogo es mucho más dinámico.</p>
+<p>Pero comprender las respuestas, validarlas y convertirlas en una solución real sigue dependiendo de nosotros.</p>
+<p><strong>El código parece correcto... pero el sistema no funciona</strong></p>
+<p>Una de las situaciones más curiosas que he encontrado recientemente ha sido descubrir que una funcionalidad estaba completamente desarrollada... pero nunca llegaba a ejecutarse.</p>
+<p>Toda la lógica de análisis mediante modelos multimodales existía.</p>
+<p>✔ Las funciones estaban implementadas.</p>
+<p>✔ Las llamadas a Ollama estaban preparadas.</p>
+<p>✔ Los prompts estaban definidos.</p>
+<p>✔ El procesamiento de resultados también.</p>
+<p>Sin embargo, una única llamada ausente dentro del flujo principal hacía que toda esa parte del sistema permaneciera completamente desconectada.</p>
+<p>No era un error de Python.</p>
+<p>No era un problema del modelo.</p>
+<p>Era un problema de arquitectura.</p>
+<p>Y este tipo de errores son mucho más frecuentes de lo que parece cuando se desarrolla con asistentes de programación basados en IA.</p>
+<p><strong>La IA escribe código. La arquitectura sigue siendo responsabilidad del desarrollador.</strong></p>
+<p>Los asistentes actuales son extraordinarios generando funciones, clases o incluso módulos completos.</p>
+<p>Pero normalmente trabajan sobre un contexto limitado.</p>
+<p>Pueden modificar perfectamente un archivo...</p>
+<p>...sin darse cuenta de que también era necesario actualizar otros cuatro para integrar correctamente la nueva funcionalidad.</p>
+<p>El resultado es un fenómeno que cada vez observo con más frecuencia:</p>
+<ul>
+<li><p>módulos perfectamente implementados;</p></li>
+<li><p>interfaces correctamente diseñadas;</p></li>
+<li><p>APIs funcionando;</p></li>
+<li><p>tests unitarios pasando...</p></li>
+</ul>
+<p>...y, aun así, funcionalidades completas que nunca llegan a ejecutarse porque nadie las conecta con el resto del sistema.</p>
+<p>No falla el código.</p>
+<p>Falla la integración.</p>
+<p><strong>Otro enemigo silencioso: las dependencias</strong></p>
+<p>Existe otro tipo de problema especialmente habitual cuando trabajamos con IA.</p>
+<p>Las librerías evolucionan a una velocidad enorme.</p>
+<ul>
+<li><p>Transformers</p></li>
+<li><p>PyTorch</p></li>
+<li><p>Ollama</p></li>
+<li><p>FastAPI</p></li>
+<li><p>DocTR</p></li>
+<li><p>Surya</p></li>
+</ul>
+<p>Cada pocas semanas aparecen nuevas versiones que modifican APIs, cambian parámetros o reorganizan módulos.</p>
+<p>El código generado por un asistente puede ser técnicamente correcto...</p>
+<p>...pero corresponder a una versión anterior de la librería.</p>
+<p>El resultado son errores que, muchas veces, no aparecen hasta el momento de la ejecución.</p>
+<p>Y en ocasiones ni siquiera generan una excepción visible.</p>
+<p>Simplemente una parte del pipeline deja de funcionar.</p>
+<p><strong>Los errores más difíciles son los que no producen errores</strong></p>
+<p>Paradójicamente, los bugs más complejos no suelen ser los que lanzan una excepción.</p>
+<p>Son los que parecen funcionar.</p>
+<p>Una librería que no llega a cargarse.</p>
+<p>Un modelo que nunca se inicializa.</p>
+<p>Un sistema de <em>fallback</em> que nunca cambia de modelo.</p>
+<p>Una función que jamás es invocada.</p>
+<p>Todo continúa ejecutándose...</p>
+<p>...pero los resultados nunca son los esperados.</p>
+<p>Detectar estos problemas exige algo que ningún modelo puede sustituir:</p>
+<p><strong>comprender el flujo completo del sistema.</strong></p>
+<p><strong>Programar con IA también significa aprender a auditar el código que genera</strong></p>
+<p>Cada vez estoy más convencida de que el papel del desarrollador está cambiando.</p>
+<p>Hace unos años dedicábamos la mayor parte del tiempo a escribir código.</p>
+<p>Hoy dedicamos una parte creciente a:</p>
+<ul>
+<li><p>revisar el código generado;</p></li>
+<li><p>validar que realmente hace lo que esperamos;</p></li>
+<li><p>conectar correctamente los distintos componentes;</p></li>
+<li><p>verificar el flujo de ejecución;</p></li>
+<li><p>comprobar la compatibilidad entre dependencias;</p></li>
+<li><p>entender por qué una solución funciona... o por qué deja de hacerlo.</p></li>
+</ul>
+<p>En muchos proyectos, el verdadero trabajo ya no consiste en crear funciones desde cero.</p>
+<p>Consiste en verificar que todas esas piezas forman un sistema coherente.</p>
+<p><strong>La ingeniería sigue siendo el factor diferencial</strong></p>
+<p>La IA ha cambiado la forma de desarrollar software.</p>
+<p>Pero no ha eliminado la necesidad de diseñar buenas arquitecturas.</p>
+<p>Al contrario.</p>
+<p>Cuanto más código es capaz de generar una IA, más importante resulta comprender cómo se relacionan todas esas piezas entre sí.</p>
+<p>Porque escribir código nunca fue el objetivo.</p>
+<p>Construir sistemas robustos, mantenibles y capaces de evolucionar con el tiempo sigue siendo el verdadero desafío.</p>
+<p>Y, desde mi experiencia desarrollando proyectos de IA Local, cada vez tengo más claro que la diferencia no la marcará quién utilice el modelo más grande.</p>
+<p>La marcará quien sea capaz de diseñar la arquitectura que permita que todos esos modelos trabajen juntos de forma fiable.</p>
+<p>Porque la IA puede acelerar el desarrollo.</p>
+<p>Pero <strong>el criterio, la capacidad de análisis y el aprendizaje continuo siguen siendo profundamente humanos</strong>.</p>

@@ -1,0 +1,79 @@
+<blockquote>
+
+</blockquote>
+<p>¿Te ha pasado que un proyecto empieza funcionando perfecto… y meses después se vuelve inmanejable hasta el punto de tener que reescribirlo desde cero?</p>
+<p>Esto ocurre cuando construimos pensando solo en el presente, sin considerar cómo evolucionará el sistema.</p>
+<p>La alternativa no es complicarse desde el día uno, sino adoptar una <strong>Arquitectura Evolutiva</strong>: empezar simple, pero preparado para crecer.</p>
+<p><strong>🧱 1. El principio base: el monolito controlado</strong></p>
+<p>El error más común no es empezar con un monolito, sino hacerlo sin estructura.</p>
+<p>La idea no es sobre-ingeniería, sino orden desde el inicio.</p>
+<p>📌 <strong>Regla de oro:</strong> no diseñes solo para lo que es hoy, sino para lo que podría convertirse mañana.</p>
+<p>Un MVP bien estructurado puede organizarse así:</p>
+<ul>
+<li><p><strong>UI</strong> → capa de presentación</p></li>
+<li><p><strong>Core</strong> → lógica de negocio</p></li>
+<li><p><strong>Data</strong> → acceso a datos</p></li>
+<li><p><strong>Models</strong> → estructura del dominio</p></li>
+</ul>
+<p>🔒 Reglas clave:</p>
+<ul>
+<li><p>La UI no contiene lógica de negocio pesada</p></li>
+<li><p>El Core no depende de la UI</p></li>
+<li><p>La capa de datos es intercambiable (SQL, API, etc.)</p></li>
+</ul>
+<p><strong>🚀 2. La evolución natural: separación progresiva</strong></p>
+<p>Cuando el sistema crece, no se reescribe: se separa.</p>
+<p>El siguiente paso lógico suele ser:</p>
+<ul>
+<li><p>Introducir una API (por ejemplo, FastAPI)</p></li>
+<li><p>Separar frontend y backend</p></li>
+<li><p>Definir contratos claros entre capas</p></li>
+</ul>
+<p>A partir de aquí, el frontend solo consume datos, y el backend se encarga de procesarlos.</p>
+<p><strong>⚙️ 3. Manejo de carga pesada: workers</strong></p>
+<p>Uno de los mayores problemas en sistemas en crecimiento es bloquear la aplicación con tareas costosas:</p>
+<ul>
+<li><p>Procesamiento de imágenes</p></li>
+<li><p>Generación de PDFs</p></li>
+<li><p>IA o scraping</p></li>
+<li><p>Tareas batch</p></li>
+</ul>
+<p>📌 Solución: <strong>asíncronía + colas de trabajo</strong></p>
+<p>Flujo típico:</p>
+<p>API → Cola (Queue) → Worker → Resultado</p>
+<p>Tecnologías comunes:</p>
+<ul>
+<li><p>Celery</p></li>
+<li><p>Redis</p></li>
+<li><p>RabbitMQ</p></li>
+</ul>
+<p>🔑 Regla práctica: Todo lo pesado debe salir del request principal. La UI nunca debería esperar.</p>
+<p><strong>🧩 4. Microservicios: el destino, no el punto de partida</strong></p>
+<p>Los microservicios no son una decisión inicial, son una consecuencia de escala.</p>
+<p>Solo tienen sentido cuando:</p>
+<ul>
+<li><p>Existen dominios claramente separados</p></li>
+<li><p>Algunas partes necesitan escalar de forma independiente</p></li>
+<li><p>Hay carga alta en componentes específicos (ej. IA con GPU)</p></li>
+<li><p>El sistema tiene múltiples clientes o puntos de entrada</p></li>
+</ul>
+<p><strong>📈 5. La brújula de evolución</strong></p>
+<p>Una forma simple de decidir cuándo evolucionar:</p>
+<ul>
+<li><p>🟢 App simple → Monolito estructurado</p></li>
+<li><p>🟡 Bloqueos en UI → Workers</p></li>
+<li><p>🟠 Backend creciendo → Separación con API</p></li>
+<li><p>🔴 Múltiples dominios → Microservicios</p></li>
+<li><p>⚡ Carga intensiva IA → Workers con GPU</p></li>
+</ul>
+<p><strong>💡 Idea clave final</strong></p>
+<p>👉 <em>No se empieza en microservicios. Se evoluciona hacia ellos cuando el sistema lo exige.</em></p>
+<p>El objetivo no es complicar la arquitectura desde el inicio, sino:</p>
+<ul>
+<li><p>Empezar pequeño</p></li>
+<li><p>Crecer sin reescribir todo</p></li>
+<li><p>Separar cuando duele</p></li>
+<li><p>Escalar cuando es necesario</p></li>
+</ul>
+<p>¿Tú qué opinas? ¿Prefieres microservicios desde el día 1 o una evolución progresiva como esta? 👇</p>
+

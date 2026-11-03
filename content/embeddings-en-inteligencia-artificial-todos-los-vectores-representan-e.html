@@ -1,0 +1,132 @@
+<blockquote>
+
+</blockquote>
+<p>Cuando empezamos a trabajar con modelos de Inteligencia Artificial es habitual encontrarse con palabras como <em>embedding</em>, <em>vector semántico</em>, <em>representación contextual</em> o <em>búsqueda por similitud</em>.</p>
+<p>Muchas veces utilizamos estas tecnologías sin preguntarnos una cuestión mucho más importante:</p>
+<p><strong>¿Todos los embeddings se construyen igual?</strong></p>
+<p>La respuesta es no.</p>
+<p>Y comprender esa diferencia ayuda a entender por qué algunos modelos son mucho mejores que otros para tareas como la búsqueda semántica, el RAG o la clasificación documental.</p>
+<p><strong>¿Qué es realmente un embedding?</strong></p>
+<p>Un embedding es una representación matemática de una información.</p>
+<p>Puede representar:</p>
+<ul>
+<li><p>una palabra;</p></li>
+<li><p>una frase;</p></li>
+<li><p>un documento;</p></li>
+<li><p>una imagen;</p></li>
+<li><p>incluso un vídeo o un audio.</p></li>
+</ul>
+<p>Al final, todo termina convertido en un vector de números.</p>
+<p>Por ejemplo:</p>
+<p>"Inteligencia Artificial"</p>
+<p>↓</p>
+<p>[0.42, -0.81, 1.37, ...]</p>
+<p>A simple vista parece una lista sin sentido.</p>
+<p>Pero esos números contienen información sobre el significado del texto.</p>
+<p><strong>Todos los embeddings tienen la misma forma</strong></p>
+<p>Aquí aparece una confusión muy habitual.</p>
+<p>Muchas personas piensan que un embedding bidireccional tiene una forma distinta.</p>
+<p>No es así.</p>
+<p>Todos siguen siendo vectores.</p>
+<p>Por ejemplo:</p>
+<p>[0.32, -0.17, 0.91, ...]</p>
+<p>La diferencia no está en la forma del vector.</p>
+<p>Está en <strong>cómo el modelo ha calculado esos valores</strong>.</p>
+<p><strong>Primera generación: embeddings estáticos</strong></p>
+<p>Los primeros modelos aprendían un único vector para cada palabra.</p>
+<p>Era parecido a tener un diccionario.</p>
+<p>Banco</p>
+<p>↓</p>
+<p>[0.54, -0.23, ...]</p>
+<p>Siempre el mismo.</p>
+<p>Da igual dónde apareciera.</p>
+<p>Eso producía un problema evidente.</p>
+<p>La palabra:</p>
+<p><strong>banco</strong></p>
+<p>puede significar:</p>
+<ul>
+<li><p>una entidad financiera;</p></li>
+<li><p>un asiento;</p></li>
+<li><p>un banco de arena.</p></li>
+</ul>
+<p>Sin embargo, el embedding era prácticamente el mismo.</p>
+<p>El modelo no entendía el contexto.</p>
+<p><strong>Segunda generación: embeddings contextuales</strong></p>
+<p>Los modelos modernos cambiaron completamente esta idea.</p>
+<p>Ahora el vector depende del contexto.</p>
+<p>Veamos un ejemplo.</p>
+<p><strong>Frase 1</strong></p>
+<p>Ingresé dinero en el banco.</p>
+<p>Aquí "banco" hace referencia a una entidad financiera.</p>
+<p><strong>Frase 2</strong></p>
+<p>Me senté en un banco del parque.</p>
+<p>Ahora significa un asiento.</p>
+<p>Aunque la palabra es exactamente la misma...</p>
+<p>...el embedding será diferente.</p>
+<p>¿Por qué?</p>
+<p>Porque el modelo analiza toda la frase antes de construir la representación.</p>
+<p><strong>¿Qué significa "bidireccional"?</strong></p>
+<p>Aquí suele aparecer otra confusión.</p>
+<p>Muchas personas imaginan que un vector bidireccional tiene dos dimensiones.</p>
+<p>No.</p>
+<p>Sigue siendo un único vector.</p>
+<p>Lo que cambia es el proceso de construcción.</p>
+<p>Imaginemos esta frase:</p>
+<p>Vi un banco junto al río.</p>
+<p>Un modelo unidireccional puede interpretar "banco" utilizando únicamente las palabras anteriores.</p>
+<p>Vi</p>
+<p>un</p>
+<p>banco</p>
+<p>Todavía tiene poca información.</p>
+<p>En cambio, un modelo bidireccional también utiliza:</p>
+<p>junto</p>
+<p>al</p>
+<p>río</p>
+<p>Ahora dispone de mucho más contexto.</p>
+<p>Gracias a eso puede inferir correctamente el significado.</p>
+<p><strong>Comparación rápida</strong></p>
+<p>CaracterísticaEmbeddings estáticosEmbeddings contextualesUn vector por palabra✅❌Cambian según el contexto❌✅Entienden ambigüedadPocoMuchoBúsqueda semánticaLimitadaExcelenteRAGPoco recomendableMuy recomendableLLM modernosNoSí</p>
+<p><strong>¿Dónde se utilizan?</strong></p>
+<p><strong>Embeddings estáticos</strong></p>
+<p>Todavía pueden ser útiles cuando:</p>
+<ul>
+<li><p>los recursos son limitados;</p></li>
+<li><p>el vocabulario es muy específico;</p></li>
+<li><p>la velocidad es prioritaria.</p></li>
+</ul>
+<p><strong>Embeddings contextuales</strong></p>
+<p>Son la base de tecnologías como:</p>
+<ul>
+<li><p>búsqueda semántica;</p></li>
+<li><p>Retrieval-Augmented Generation (RAG);</p></li>
+<li><p>clasificación documental;</p></li>
+<li><p>motores de recomendación;</p></li>
+<li><p>asistentes inteligentes;</p></li>
+<li><p>IA multimodal;</p></li>
+<li><p>sistemas de preguntas y respuestas.</p></li>
+</ul>
+<p><strong>¿Qué significa esto en una aplicación real?</strong></p>
+<p>Imaginemos un buscador documental.</p>
+<p>Un usuario escribe:</p>
+<p>¿Cómo puedo solicitar una baja médica?</p>
+<p>Un buscador tradicional busca palabras iguales.</p>
+<p>Un buscador basado en embeddings puede encontrar documentos que hablen de:</p>
+<ul>
+<li><p>incapacidad temporal;</p></li>
+<li><p>partes médicos;</p></li>
+<li><p>permisos laborales;</p></li>
+<li><p>ausencias por enfermedad.</p></li>
+</ul>
+<p>Aunque ninguna frase sea exactamente igual.</p>
+<p>Porque compara significado.</p>
+<p>No palabras.</p>
+<p><strong>La idea más importante</strong></p>
+<p>Después de trabajar durante los últimos meses con OCR, búsqueda semántica, modelos multimodales y diferentes motores de embeddings, cada vez tengo más clara una conclusión.</p>
+<p>La revolución de los embeddings no consiste en convertir texto en números.</p>
+<p>Eso ya existía hace años.</p>
+<p>La verdadera revolución consiste en que esos números ahora representan el significado teniendo en cuenta el contexto.</p>
+<p>Y ese pequeño cambio es el que hace posibles muchas de las aplicaciones de Inteligencia Artificial que utilizamos hoy.</p>
+<p><strong>¿Y tú?</strong></p>
+<p>Cuando empezaste a trabajar con embeddings…</p>
+<p><strong>¿Pensabas que todos eran simplemente una lista de números o ya conocías la diferencia entre una representación estática y una representación contextual?</strong></p>
+<p>Me encantará leer vuestra experiencia en los comentarios.</p>

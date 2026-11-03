@@ -1,0 +1,1469 @@
+{
+ "topics": [
+  {
+   "slug": "formacion-profesional-y-docencia",
+   "name": "Formación profesional y docencia"
+  },
+  {
+   "slug": "salud-y-organizacion-sanitaria",
+   "name": "Salud y organización sanitaria"
+  },
+  {
+   "slug": "documentacion-sanitaria-e-historia-clinica",
+   "name": "Documentación sanitaria e historia clínica"
+  },
+  {
+   "slug": "sistemas-de-informacion-sanitaria",
+   "name": "Sistemas de información sanitaria"
+  },
+  {
+   "slug": "codificacion-clinica-y-cie-10-es",
+   "name": "Codificación clínica y CIE-10-ES"
+  },
+  {
+   "slug": "arquitectura-de-software",
+   "name": "Arquitectura de software"
+  },
+  {
+   "slug": "ia-local-desarrollo-con-ia-y-aprendizaje",
+   "name": "IA local, desarrollo con IA y aprendizaje"
+  },
+  {
+   "slug": "embeddings-y-procesamiento-del-lenguaje",
+   "name": "Embeddings y procesamiento del lenguaje"
+  },
+  {
+   "slug": "teleasistencia",
+   "name": "Teleasistencia"
+  },
+  {
+   "slug": "trayectoria-profesional",
+   "name": "Trayectoria profesional"
+  }
+ ],
+ "entries": [
+  {
+   "slug": "hacia-una-formacion-profesional-flexible-inclusiva-y-basada-en-el-valo",
+   "title": "Hacia una Formación Profesional flexible, inclusiva y basada en el valor",
+   "type": "articulo",
+   "date": "2025-10-30",
+   "topic": "Formación profesional y docencia",
+   "summary": "Crítica a la rigidez de la FP en España (sin reconocimiento de competencias, presencialidad obligatoria, poca formación pedagógica online) y propuesta de un modelo online flexible sobre Canvas, con itinerarios híbridos y",
+   "tags": [
+    "FP",
+    "Educación online",
+    "Canvas"
+   ],
+   "hashtags": [
+    "#FP",
+    "#EducaciónOnline",
+    "#Canvas",
+    "#Inclusión"
+   ],
+   "minutes": 3
+  },
+  {
+   "slug": "como-evaluo-a-mis-alumnos-para-prepararlos-al-mundo-laboral",
+   "title": "Cómo Evalúo a Mis Alumnos para Prepararlos al Mundo Laboral",
+   "type": "articulo",
+   "date": "2026-03-05",
+   "topic": "Formación profesional y docencia",
+   "summary": "Cómo evalúa a su alumnado de certificados de profesionalidad simulando el trabajo en empresas reales: visión, criterios y preparación para el mundo laboral.",
+   "tags": [
+    "Evaluación",
+    "Certificados de profesionalidad",
+    "Empleabilidad"
+   ],
+   "hashtags": [
+    "#Evaluación",
+    "#CertificadosDeProfesionalidad",
+    "#Empleabilidad"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "eres-un-formador-del-siglo-xx-o-del-xxi",
+   "title": "¿Eres un formador del siglo XX o del XXI?",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Formación profesional y docencia",
+   "summary": "Reflexión a partir de una infografía sobre cuatro enfoques de enseñanza transformadora: evaluación por competencias, assessment for learning y más.",
+   "tags": [
+    "Docencia",
+    "Evaluación",
+    "Formación"
+   ],
+   "hashtags": [
+    "#Educación",
+    "#Formación",
+    "#Liderazgo",
+    "#Aprendizaje",
+    "#Feedback",
+    "#Competencias",
+    "#DesarrolloProfesional"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "mi-compromiso-como-docente-de-fp-en-desarrollo",
+   "title": "Mi compromiso como docente de FP en Desarrollo",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Formación profesional y docencia",
+   "summary": "Declaración de misión: formar desarrolladores competentes, empleables y éticos; evaluar con transparencia y acompañar el progreso de cada estudiante.",
+   "tags": [
+    "FP Informática",
+    "Compromiso docente",
+    "Empleabilidad"
+   ],
+   "hashtags": [
+    "#FormaciónProfesional",
+    "#FPInformática",
+    "#DesarrolloWeb",
+    "#DocenciaFP",
+    "#Programación",
+    "#EducaciónDigital",
+    "#DAM",
+    "#DAW"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "la-importancia-de-una-arquitectura-de-archivos-bien-organizada-en-proy",
+   "title": "La Importancia de una Arquitectura de Archivos Bien Organizada en Proyectos Web",
+   "type": "articulo",
+   "date": "2026-03-05",
+   "topic": "Formación profesional y docencia",
+   "summary": "Por qué la estructura de archivos es la base de un proyecto web y cómo enseñar buenas prácticas de organización desde el primer día.",
+   "tags": [
+    "Desarrollo web",
+    "Buenas prácticas",
+    "Docencia"
+   ],
+   "hashtags": [
+    "#DesarrolloWeb",
+    "#BuenasPracticas",
+    "#ArquitecturaDeArchivos",
+    "#ProfesionalismoDigital",
+    "#EducacionTecnologica",
+    "#AprendizajeActivo",
+    "#TrabajoEnEquipo",
+    "#Escalabilidad"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "que-significa-realmente-aprender-a-desarrollar-paginas-web",
+   "title": "¿Qué significa realmente aprender a desarrollar páginas web?",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Formación profesional y docencia",
+   "summary": "Publicación del certificado IFC297_2: el aprendizaje va más allá de HTML, CSS y JavaScript, hacia analizar problemas y trabajar como profesionales.",
+   "tags": [
+    "Desarrollo web",
+    "IFC297_2",
+    "Docencia"
+   ],
+   "hashtags": [
+    "#IFC297_2",
+    "#IFCD0110",
+    "#ConfecciónYPublicaciónDePáginasWeb",
+    "#Docencia",
+    "#FormaciónProfesional",
+    "#DesarrolloWeb",
+    "#HTML",
+    "#CSS"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "ensenar-desarrollo-web-en-la-era-de-la-ia-como-mi-evolucion-como-ingen",
+   "title": "Enseñar desarrollo web en la era de la IA: cómo mi evolución como ingeniera está transformando mi forma de enseñar",
+   "type": "articulo",
+   "date": "2026-07-18",
+   "topic": "Formación profesional y docencia",
+   "summary": "Cómo su evolución como ingeniera transforma la forma de enseñar desarrollo web en la era de la IA: del código a la arquitectura y el criterio.",
+   "tags": [
+    "Desarrollo web",
+    "IA",
+    "Docencia"
+   ],
+   "hashtags": [
+    "#DesarrolloWeb",
+    "#ArquitecturaSoftware",
+    "#IngenieríaDeSoftware",
+    "#InteligenciaArtificial",
+    "#AIAgéntica",
+    "#PensamientoSistémico",
+    "#DesarrolloDeSoftware",
+    "#ArquitecturaDeSoftware"
+   ],
+   "minutes": 4
+  },
+  {
+   "slug": "esta-cambiando-la-forma-de-ensenar-desarrollo-web",
+   "title": "¿Está cambiando la forma de enseñar desarrollo web?",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Formación profesional y docencia",
+   "summary": "Publicación con infografía: el verdadero reto es enseñar a pensar como arquitectos de software, incluso con IA.",
+   "tags": [
+    "Desarrollo web",
+    "Docencia",
+    "Infografía"
+   ],
+   "hashtags": [
+    "#DesarrolloWeb",
+    "#ArquitecturaSoftware",
+    "#IngenieríaDeSoftware",
+    "#InteligenciaArtificial",
+    "#Docencia",
+    "#PensamientoSistémico",
+    "#AprendizajeContinuo",
+    "#InnovaciónEducativa"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "fisiologia-respiratoria-volumenes-y-capacidades-pulmonares",
+   "title": "Fisiología respiratoria: volúmenes y capacidades pulmonares",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Salud y organización sanitaria",
+   "summary": "Publicación divulgativa sobre volumen corriente, reservas y capacidad vital, y su utilidad para interpretar espirometrías, con un párrafo emocional y otro técnico.",
+   "tags": [
+    "Fisiología",
+    "Espirometría",
+    "Ciencias de la salud"
+   ],
+   "hashtags": [
+    "#FisiologíaRespiratoria",
+    "#VolúmenesPulmonares",
+    "#CapacidadesPulmonares",
+    "#CienciasDeLaSalud",
+    "#EducaciónSanitaria",
+    "#EstudiantesDeSalud",
+    "#FormaciónSanitaria",
+    "#Medicina"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "organizacion-sanitaria",
+   "title": "Organización Sanitaria",
+   "type": "articulo",
+   "date": "2026-03-04",
+   "topic": "Salud y organización sanitaria",
+   "summary": "Compendio de estudio: evolución del concepto de salud, determinantes (modelo de Lalonde), modelos de sistemas sanitarios, SNS español, niveles de asistencia y documentación sanitaria.",
+   "tags": [
+    "Organización sanitaria",
+    "SNS",
+    "Determinantes de salud"
+   ],
+   "hashtags": [
+    "#OrganizaciónSanitaria",
+    "#SNS",
+    "#DeterminantesDeSalud"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "la-importancia-de-la-documentacion-sanitaria-guia-para-administrativos",
+   "title": "La Importancia de la Documentación Sanitaria: Guía para Administrativos",
+   "type": "articulo",
+   "date": "2026-03-04",
+   "topic": "Documentación sanitaria e historia clínica",
+   "summary": "Guía para administrativos: qué es un documento sanitario, fuentes documentales, tipos (administrativa, clínica y médico-legal), circuitos de información y consejos para recordar lo esencial.",
+   "tags": [
+    "Documentación",
+    "Historia clínica",
+    "Circuitos"
+   ],
+   "hashtags": [
+    "#Salud",
+    "#Sanidad",
+    "#GestiónSanitaria",
+    "#Administración",
+    "#DocumentaciónSanitaria",
+    "#HistoriaClínica",
+    "#NormativaSanitaria",
+    "#SGD"
+   ],
+   "minutes": 3
+  },
+  {
+   "slug": "diseno-y-normalizacion-de-documentos-clinico-asistenciales",
+   "title": "Diseño y Normalización de Documentos Clínico-Asistenciales",
+   "type": "articulo",
+   "date": "2026-03-04",
+   "topic": "Documentación sanitaria e historia clínica",
+   "summary": "Cómo diseñar documentos clínicos (formato externo e interno), su normalización y legislación, y las ventajas de la historia clínica electrónica.",
+   "tags": [
+    "Normalización",
+    "HCE",
+    "Legislación"
+   ],
+   "hashtags": [
+    "#Normalización",
+    "#HCE",
+    "#Legislación"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "calidad-de-la-documentacion-clinica-claves-para-administrativos-y-prof",
+   "title": "Calidad de la Documentación Clínica: Claves para Administrativos y Profesionales Sanitarios",
+   "type": "articulo",
+   "date": "2026-03-04",
+   "topic": "Documentación sanitaria e historia clínica",
+   "summary": "La calidad de las historias clínicas como herramienta de seguridad del paciente: ISO 9000, EFQM, Joint Commission, control de calidad y Comisión de Historias Clínicas.",
+   "tags": [
+    "Calidad",
+    "ISO 9000",
+    "Seguridad del paciente"
+   ],
+   "hashtags": [
+    "#CalidadSanitaria",
+    "#HistoriasClinicas",
+    "#DocumentacionSanitaria",
+    "#SeguridadDelPaciente",
+    "#JointCommission",
+    "#AdministracionSanitaria",
+    "#ControlDeCalidad",
+    "#ExcelenciaAsistencial"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "calidad-de-la-documentacion-clinica-resumen-en-linkedin",
+   "title": "Calidad de la documentación clínica: resumen en LinkedIn",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Documentación sanitaria e historia clínica",
+   "summary": "Resumen en formato publicación: estándares de la Joint Commission, ISO 9000 y EFQM, controles de calidad y papel de la Comisión de Historias Clínicas.",
+   "tags": [
+    "Calidad",
+    "Joint Commission",
+    "Historias clínicas"
+   ],
+   "hashtags": [
+    "#CalidadSanitaria",
+    "#HistoriasClinicas",
+    "#SeguridadDelPaciente",
+    "#AdministracionSanitaria",
+    "#DocumentacionSanitaria"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "sistemas-de-informacion-y-clasificacion-sanitarios-una-mirada-desde-la",
+   "title": "Sistemas de Información y Clasificación Sanitarios: una mirada desde la Documentación Sanitaria",
+   "type": "articulo",
+   "date": "2026-03-05",
+   "topic": "Sistemas de información sanitaria",
+   "summary": "Introducción a la gestión de la información en el sistema sanitario: qué datos se recogen y analizan, historia clínica, CMBD y sistemas de clasificación.",
+   "tags": [
+    "Sistemas de información",
+    "CMBD",
+    "Clasificaciones"
+   ],
+   "hashtags": [
+    "#DocumentaciónSanitaria",
+    "#GestiónSanitaria",
+    "#SistemaSanitario",
+    "#InformaciónSanitaria",
+    "#SaludPública"
+   ],
+   "minutes": 6
+  },
+  {
+   "slug": "tema-1-sistemas-de-informacion-sanitaria",
+   "title": "Tema 1: Sistemas de Información Sanitaria",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Sistemas de información sanitaria",
+   "summary": "Resumen de estudio del SIS: historia clínica, CMBD, indicadores de salud y su papel en la gestión, la planificación y la investigación.",
+   "tags": [
+    "SIS",
+    "CMBD",
+    "Indicadores"
+   ],
+   "hashtags": [
+    "#SIS",
+    "#InformaciónSanitaria",
+    "#HistoriaClínica",
+    "#DatosClínicos",
+    "#DatosNoClínicos",
+    "#CMBD",
+    "#IndicadoresSNS",
+    "#SIAP"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "sistemas-de-informacion-y-clasificacion-sanitarios-guia-visual-para-es",
+   "title": "Sistemas de Información y Clasificación Sanitarios: Guía Visual para Estudiantes",
+   "type": "articulo",
+   "date": "2026-03-05",
+   "topic": "Sistemas de información sanitaria",
+   "summary": "Resumen visual y práctico para estudiantes sobre sistemas de información y clasificación sanitarios.",
+   "tags": [
+    "Guía visual",
+    "Estudiantes",
+    "Clasificación"
+   ],
+   "hashtags": [
+    "#GuíaVisual",
+    "#Estudiantes",
+    "#Clasificación"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "sistemas-de-informacion-sanitaria-clave-para-la-gestion-y-calidad-en-s",
+   "title": "Sistemas de Información Sanitaria: Clave para la gestión y calidad en salud",
+   "type": "articulo",
+   "date": "2026-03-05",
+   "topic": "Sistemas de información sanitaria",
+   "summary": "Qué es la información sanitaria y cómo se organiza el SIS para apoyar la toma de decisiones, la planificación y la calidad asistencial.",
+   "tags": [
+    "Información sanitaria",
+    "SIS",
+    "Calidad"
+   ],
+   "hashtags": [
+    "#SaludDigital",
+    "#SistemasDeInformaciónSanitaria",
+    "#HistoriaClínica",
+    "#CMBD",
+    "#GestiónSanitaria",
+    "#CalidadEnSalud",
+    "#InnovaciónEnSalud",
+    "#EducaciónSanitaria"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "diferencia-entre-cie-10-es-diagnosticos-y-cie-10-es-procedimientos",
+   "title": "Diferencia entre CIE-10-ES Diagnósticos y CIE-10-ES Procedimientos",
+   "type": "articulo",
+   "date": "2026-03-05",
+   "topic": "Codificación clínica y CIE-10-ES",
+   "summary": "Diferencias entre CIE-10-ES Diagnósticos y CIE-10-ES Procedimientos, y entre diagnóstico principal y secundario, explicadas de forma sencilla para estudiantes.",
+   "tags": [
+    "CIE-10-ES",
+    "Diagnósticos",
+    "Procedimientos"
+   ],
+   "hashtags": [
+    "#DocumentacionSanitaria",
+    "#CIE10ES",
+    "#CodificacionClinica",
+    "#GestionDeInformacionSanitaria",
+    "#InformacionSanitaria",
+    "#EstudiantesSanitarios",
+    "#SaludDigital",
+    "#DatosEnSalud"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "que-es-la-codificacion-clinica-y-por-que-es-clave-en-los-sistemas-sani",
+   "title": "¿Qué es la codificación clínica y por qué es clave en los sistemas sanitarios?",
+   "type": "articulo",
+   "date": "2026-03-06",
+   "topic": "Codificación clínica y CIE-10-ES",
+   "summary": "Por qué la codificación clínica estandariza diagnósticos y procedimientos, y qué aporta a la gestión y el análisis del sistema sanitario.",
+   "tags": [
+    "Codificación clínica",
+    "Datos en salud",
+    "Gestión"
+   ],
+   "hashtags": [
+    "#CodificaciónClínica",
+    "#GestiónSanitaria",
+    "#DatosEnSalud",
+    "#CIE10",
+    "#SaludDigital",
+    "#SaludPública"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "como-entender-la-cie-10-es-de-diagnosticos-sin-volverse-loco-guia-senc",
+   "title": "Cómo entender la CIE-10-ES de diagnósticos sin volverse loco: guía sencilla",
+   "type": "articulo",
+   "date": "2026-03-06",
+   "topic": "Codificación clínica y CIE-10-ES",
+   "summary": "Guía sencilla de la estructura y las reglas básicas de la CIE-10-ES de diagnósticos para estudiantes y profesionales.",
+   "tags": [
+    "CIE-10-ES",
+    "Diagnósticos",
+    "Guía"
+   ],
+   "hashtags": [
+    "#CIE10",
+    "#CIE10ES",
+    "#CodificaciónMédica",
+    "#DiagnósticosMédicos",
+    "#SaludDigital",
+    "#EducaciónSanitaria",
+    "#ProfesionalesDeSalud",
+    "#EstudiantesDeMedicina"
+   ],
+   "minutes": 4
+  },
+  {
+   "slug": "como-seleccionar-correctamente-los-codigos-en-la-cie-guia-rapida-para-",
+   "title": "Cómo Seleccionar Correctamente los Códigos en la CIE: Guía Rápida para Profesionales de la Salud",
+   "type": "articulo",
+   "date": "2026-03-06",
+   "topic": "Codificación clínica y CIE-10-ES",
+   "summary": "Proceso paso a paso para seleccionar el código correcto en la CIE: identificar el episodio asistencial y aplicar las reglas de codificación.",
+   "tags": [
+    "CIE",
+    "Codificación médica",
+    "Guía rápida"
+   ],
+   "hashtags": [
+    "#CIE",
+    "#CodificaciónMédica",
+    "#GuíaRápida"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "codificacion-cie-10-uf6-legislacion-y-normativa",
+   "title": "Codificación CIE-10 (UF6): legislación y normativa",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Codificación clínica y CIE-10-ES",
+   "summary": "Resumen de estudio de la UF6: Ley 41/2002, RD 69/2015, LO 3/2018 y demás normativa estatal sobre historia clínica, RAE-CMBD y protección de datos.",
+   "tags": [
+    "UF6",
+    "Legislación",
+    "RAE-CMBD"
+   ],
+   "hashtags": [
+    "#UF6",
+    "#Legislación",
+    "#RAECMBD"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "la-cie-10-y-la-codificacion-clinica-clave-para-la-gestion-de-la-inform",
+   "title": "La CIE-10 y la codificación clínica: Clave para la gestión de la información sanitaria",
+   "type": "articulo",
+   "date": "2026-03-06",
+   "topic": "Codificación clínica y CIE-10-ES",
+   "summary": "Legislación clave en España y aplicación de la CIE-10 para codificar diagnósticos y procedimientos con calidad y cumplimiento normativo.",
+   "tags": [
+    "CIE-10",
+    "Legislación",
+    "Codificación"
+   ],
+   "hashtags": [
+    "#CIE10",
+    "#CodificaciónClínica",
+    "#SaludDigital",
+    "#GestiónSanitaria",
+    "#HistoriaClínica",
+    "#RAECMBD",
+    "#UnidadTécnicaCIE10ES",
+    "#NormativaSanitaria"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "comprendiendo-la-codificacion-cie-10-es-y-su-normativa-guia-para-estud",
+   "title": "Comprendiendo la Codificación CIE-10-ES y su Normativa: Guía para estudiantes de Documentación Sanitaria",
+   "type": "articulo",
+   "date": "2026-03-10",
+   "topic": "Codificación clínica y CIE-10-ES",
+   "summary": "Guía para estudiantes de la UF6: cómo aplicar las normativas de codificación CIE-10-ES para registrar bien la información clínica.",
+   "tags": [
+    "CIE-10-ES",
+    "Normativa",
+    "UF6"
+   ],
+   "hashtags": [
+    "#CIE10ES",
+    "#Normativa",
+    "#UF6"
+   ],
+   "minutes": 4
+  },
+  {
+   "slug": "de-crear-interfaces-a-disenar-arquitectura-real",
+   "title": "De crear interfaces a diseñar arquitectura real",
+   "type": "articulo",
+   "date": "2026-05-23",
+   "topic": "Arquitectura de software",
+   "summary": "Cómo la programación, la docencia y la escalabilidad cambian la forma de pensar el software: del primer programa en un solo archivo a una arquitectura que crece.",
+   "tags": [
+    "Arquitectura de software",
+    "Escalabilidad",
+    "Docencia"
+   ],
+   "hashtags": [
+    "#SoftwareArchitecture",
+    "#IngenieriaDeSoftware",
+    "#Python",
+    "#FastAPI",
+    "#ReactJS",
+    "#ElectronJS",
+    "#QML",
+    "#DesktopDevelopment"
+   ],
+   "minutes": 5
+  },
+  {
+   "slug": "arquitectura-evolutiva-escalable-como-crecer-sin-reescribir-todo",
+   "title": "Arquitectura Evolutiva Escalable: cómo crecer sin reescribir todo",
+   "type": "articulo",
+   "date": "2026-05-23",
+   "topic": "Arquitectura de software",
+   "summary": "Arquitectura evolutiva: empezar simple pero preparado para crecer, evitando reescribir el proyecto desde cero.",
+   "tags": [
+    "Arquitectura evolutiva",
+    "Escalabilidad",
+    "Python"
+   ],
+   "hashtags": [
+    "#SoftwareArchitecture",
+    "#Scalability",
+    "#Python",
+    "#FastAPI",
+    "#Microservices",
+    "#BackendDevelopment",
+    "#CleanArchitecture",
+    "#SystemDesign"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "arquitectura-de-software-lo-ideal-vs-la-realidad-en-empresas-reales",
+   "title": "Arquitectura de software: lo ideal vs la realidad en empresas reales",
+   "type": "articulo",
+   "date": "2026-05-23",
+   "topic": "Arquitectura de software",
+   "summary": "La arquitectura en empresas reales no es una escalera ordenada, sino una negociación constante entre lo ideal y lo posible.",
+   "tags": [
+    "Arquitectura",
+    "Realidad empresarial",
+    "Ingeniería"
+   ],
+   "hashtags": [
+    "#Arquitectura",
+    "#RealidadEmpresarial",
+    "#Ingeniería"
+   ],
+   "minutes": 4
+  },
+  {
+   "slug": "inteligencia-artificial-local-el-reto-es-la-arquitectura-no-el-modelo",
+   "title": "Inteligencia Artificial Local: el reto es la arquitectura, no el modelo",
+   "type": "articulo",
+   "date": "2026-07-13",
+   "topic": "IA local, desarrollo con IA y aprendizaje",
+   "summary": "Lecciones de dos proyectos (AI Dataset Engine y Fábrica de Captions) para procesar información íntegramente en el equipo del usuario, sin APIs externas ni nube.",
+   "tags": [
+    "IA local",
+    "MLOps",
+    "Arquitectura"
+   ],
+   "hashtags": [
+    "#ArtificialIntelligence",
+    "#LocalAI",
+    "#MLOps",
+    "#SoftwareArchitecture",
+    "#AIEngineering",
+    "#MachineLearning",
+    "#ComputerVision",
+    "#VisionLanguageModels"
+   ],
+   "minutes": 4
+  },
+  {
+   "slug": "ia-local-mas-que-un-modelo-una-arquitectura-completa",
+   "title": "IA Local: más que un modelo, una arquitectura completa",
+   "type": "publicacion",
+   "date": null,
+   "topic": "IA local, desarrollo con IA y aprendizaje",
+   "summary": "Publicación con las claves de una arquitectura de IA local robusta: gestión de más de 16 modelos locales, estabilidad y uso eficiente del hardware.",
+   "tags": [
+    "IA local",
+    "Modelos VLM",
+    "Hardware"
+   ],
+   "hashtags": [
+    "#LocalAI",
+    "#InteligenciaArtificial",
+    "#MachineLearning",
+    "#MLOps",
+    "#EdgeAI",
+    "#ComputerVision",
+    "#Python",
+    "#FastAPI"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "desarrollar-software-con-ia-cuando-el-problema-ya-no-es-escribir-codig",
+   "title": "Desarrollar software con IA: cuando el problema ya no es escribir código, sino hacer que todo el sistema funcione",
+   "type": "articulo",
+   "date": "2026-07-14",
+   "topic": "IA local, desarrollo con IA y aprendizaje",
+   "summary": "Desarrollar con IA no elimina los problemas de ingeniería: el desafío pasa de escribir código a lograr que todo el sistema funcione.",
+   "tags": [
+    "IA y desarrollo",
+    "Ingeniería",
+    "Arquitectura"
+   ],
+   "hashtags": [
+    "#ArtificialIntelligence",
+    "#LocalAI",
+    "#AIEngineering",
+    "#SoftwareEngineering",
+    "#SoftwareDevelopment",
+    "#SystemArchitecture",
+    "#Python",
+    "#Ollama"
+   ],
+   "minutes": 4
+  },
+  {
+   "slug": "escribir-codigo-con-ia-eso-es-lo-de-menos",
+   "title": "¿Escribir código con IA? Eso es lo de menos",
+   "type": "publicacion",
+   "date": null,
+   "topic": "IA local, desarrollo con IA y aprendizaje",
+   "summary": "Publicación sobre una infografía: la IA genera buen código, pero la arquitectura y la integración siguen siendo responsabilidad humana.",
+   "tags": [
+    "Código con IA",
+    "Arquitectura",
+    "Infografía"
+   ],
+   "hashtags": [
+    "#InteligenciaArtificial",
+    "#DesarrolloSoftware",
+    "#ArquitecturaSoftware",
+    "#Programación",
+    "#TechLeaders",
+    "#Innovación",
+    "#DevCommunity",
+    "#MachineLearning"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "aprender-ia-no-es-solo-usar-herramientas-es-cambiar-la-forma-de-pensar",
+   "title": "Aprender IA no es solo usar herramientas, es cambiar la forma de pensar.",
+   "type": "articulo",
+   "date": "2026-07-17",
+   "topic": "IA local, desarrollo con IA y aprendizaje",
+   "summary": "Diferencia entre IA generativa, IA agéntica y agentes de IA, y cómo cambió la arquitectura de una plataforma de procesamiento inteligente de documentos.",
+   "tags": [
+    "IA agéntica",
+    "Agentes",
+    "Arquitectura"
+   ],
+   "hashtags": [
+    "#InteligenciaArtificial",
+    "#IAAgéntica",
+    "#AgentesIA",
+    "#LLM",
+    "#OCR",
+    "#ArquitecturaSoftware",
+    "#DesarrolloSoftware",
+    "#Python"
+   ],
+   "minutes": 4
+  },
+  {
+   "slug": "aprender-ia-una-nueva-forma-de-pensar",
+   "title": "Aprender IA: una nueva forma de pensar",
+   "type": "publicacion",
+   "date": null,
+   "topic": "IA local, desarrollo con IA y aprendizaje",
+   "summary": "Publicación que resume cómo un concepto teórico cambió la dirección del proyecto, con infografía.",
+   "tags": [
+    "IA agéntica",
+    "Reflexión",
+    "Infografía"
+   ],
+   "hashtags": [
+    "#InteligenciaArtificial",
+    "#IAAgéntica",
+    "#AgentesIA",
+    "#LLM",
+    "#OCR",
+    "#ArquitecturaSoftware",
+    "#DesarrolloSoftware",
+    "#Python"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "cuando-un-nuevo-concepto-conecta-todas-las-piezas-del-puzle",
+   "title": "Cuando un nuevo concepto conecta todas las piezas del puzle",
+   "type": "articulo",
+   "date": "2026-07-17",
+   "topic": "IA local, desarrollo con IA y aprendizaje",
+   "summary": "Segunda parte: cómo la IA local, los pipelines inteligentes y la IA agéntica resultan ser piezas de un mismo puzle.",
+   "tags": [
+    "IA agéntica",
+    "Aprendizaje",
+    "Pipelines"
+   ],
+   "hashtags": [
+    "#InteligenciaArtificial",
+    "#IAAgéntica",
+    "#AgentesIA",
+    "#ArquitecturaSoftware",
+    "#IngenieríaDeSoftware",
+    "#SoftwareEngineering",
+    "#SystemDesign",
+    "#AIEngineering"
+   ],
+   "minutes": 7
+  },
+  {
+   "slug": "el-concepto-que-hace-que-todo-cobre-sentido",
+   "title": "El concepto que hace que todo cobre sentido",
+   "type": "publicacion",
+   "date": null,
+   "topic": "IA local, desarrollo con IA y aprendizaje",
+   "summary": "Publicación con infografía sobre el momento en que arquitectura, IA local, pipelines e IA agéntica encajan.",
+   "tags": [
+    "IA agéntica",
+    "Aprendizaje",
+    "Infografía"
+   ],
+   "hashtags": [
+    "#InteligenciaArtificial",
+    "#IAAgéntica",
+    "#AgentesIA",
+    "#ArquitecturaSoftware",
+    "#SoftwareEngineering",
+    "#AIEngineering",
+    "#SystemDesign",
+    "#Arquitectura"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "cuando-un-vector-deja-de-ser-una-lista-de-numeros-comprender-como-la-i",
+   "title": "Cuando un vector deja de ser una lista de números: comprender cómo la IA representa el significado",
+   "type": "articulo",
+   "date": "2026-07-18",
+   "topic": "Embeddings y procesamiento del lenguaje",
+   "summary": "Un embedding es mucho más que una lista de números: lo importante es cómo el modelo construye el significado.",
+   "tags": [
+    "Embeddings",
+    "IA",
+    "Significado"
+   ],
+   "hashtags": [
+    "#ArtificialIntelligence",
+    "#AIEngineering",
+    "#SoftwareArchitecture",
+    "#SoftwareEngineering",
+    "#Embeddings",
+    "#SemanticSearch",
+    "#LLM",
+    "#NaturalLanguageProcessing"
+   ],
+   "minutes": 3
+  },
+  {
+   "slug": "llevas-anos-entendiendo-mal-que-es-un-embedding",
+   "title": "¿Llevas años entendiendo mal qué es un embedding?",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Embeddings y procesamiento del lenguaje",
+   "summary": "Publicación que anticipa el cambio de perspectiva: el valor no está en el vector, sino en cómo se construye el significado.",
+   "tags": [
+    "Embeddings",
+    "RAG",
+    "Búsqueda semántica"
+   ],
+   "hashtags": [
+    "#InteligenciaArtificial",
+    "#IAGenerativa",
+    "#Embeddings",
+    "#LLM",
+    "#RAG",
+    "#SemanticSearch",
+    "#ArquitecturaSoftware",
+    "#AIEngineering"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "dos-embeddings-con-la-misma-forma-significados-distintos",
+   "title": "Dos embeddings con la misma forma, significados distintos",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Embeddings y procesamiento del lenguaje",
+   "summary": "Publicación con infografía sobre por qué vectores iguales en forma pueden representar el significado de modo diferente.",
+   "tags": [
+    "Embeddings",
+    "RAG",
+    "Infografía"
+   ],
+   "hashtags": [
+    "#ArtificialIntelligence",
+    "#Embeddings",
+    "#SemanticSearch",
+    "#RAG",
+    "#LLM",
+    "#NaturalLanguageProcessing",
+    "#MachineLearning",
+    "#AIEngineering"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "embeddings-en-inteligencia-artificial-todos-los-vectores-representan-e",
+   "title": "Embeddings en Inteligencia Artificial: ¿todos los vectores representan el significado de la misma forma?",
+   "type": "articulo",
+   "date": "2026-07-18",
+   "topic": "Embeddings y procesamiento del lenguaje",
+   "summary": "Explica que no todos los embeddings se construyen igual y por qué eso condiciona la búsqueda semántica y los resultados de los modelos.",
+   "tags": [
+    "Embeddings",
+    "Búsqueda semántica",
+    "NLP"
+   ],
+   "hashtags": [
+    "#ArtificialIntelligence",
+    "#Embeddings",
+    "#SemanticSearch",
+    "#NaturalLanguageProcessing",
+    "#LLM",
+    "#RAG",
+    "#MachineLearning",
+    "#AIEngineering"
+   ],
+   "minutes": 3
+  },
+  {
+   "slug": "cuando-los-embeddings-dejan-de-representar-palabras-y-empiezan-a-captu",
+   "title": "Cuando los embeddings dejan de representar palabras y empiezan a capturar significado: una mirada al lenguaje, la cultura y el contexto",
+   "type": "articulo",
+   "date": "2026-07-18",
+   "topic": "Embeddings y procesamiento del lenguaje",
+   "summary": "Cómo un mismo modelo entiende textos en español, japonés o árabe: embeddings multilingües, cultura y contexto.",
+   "tags": [
+    "Multilingüe",
+    "Cultura",
+    "Contexto"
+   ],
+   "hashtags": [
+    "#ArtificialIntelligence",
+    "#NaturalLanguageProcessing",
+    "#Embeddings",
+    "#SemanticSearch",
+    "#AIEngineering",
+    "#MachineLearning",
+    "#SoftwareArchitecture",
+    "#LLM"
+   ],
+   "minutes": 6
+  },
+  {
+   "slug": "del-lenguaje-a-la-mente-cuando-los-embeddings-empiezan-a-representar-c",
+   "title": "Del lenguaje a la mente: cuando los embeddings empiezan a representar cómo pensamos",
+   "type": "articulo",
+   "date": "2026-07-18",
+   "topic": "Embeddings y procesamiento del lenguaje",
+   "summary": "¿Puede una IA representar cómo pensamos? Embeddings, estilo de escritura y ciencia cognitiva.",
+   "tags": [
+    "Ciencia cognitiva",
+    "NLP",
+    "Embeddings"
+   ],
+   "hashtags": [
+    "#InteligenciaArtificial",
+    "#NLP",
+    "#CienciaCognitiva",
+    "#Embeddings",
+    "#ArquitecturaIA",
+    "#MachineLearning",
+    "#DeepLearning",
+    "#ModelosDeLenguaje"
+   ],
+   "minutes": 5
+  },
+  {
+   "slug": "del-lenguaje-a-la-mente",
+   "title": "Del lenguaje a la mente",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Embeddings y procesamiento del lenguaje",
+   "summary": "Publicación que resume la revelación: pasar de representar palabras a preguntarse si la IA puede representar el pensamiento.",
+   "tags": [
+    "Ciencia cognitiva",
+    "Machine learning"
+   ],
+   "hashtags": [
+    "#InteligenciaArtificial",
+    "#MachineLearning",
+    "#CienciaCognitiva",
+    "#NLP",
+    "#Innovació"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "puede-una-ia-entender-el-sarcasmo-cuando-el-significado-deja-de-estar-",
+   "title": "¿Puede una IA entender el sarcasmo? Cuando el significado deja de estar en las palabras y pasa a depender de la intención",
+   "type": "articulo",
+   "date": "2026-07-18",
+   "topic": "Embeddings y procesamiento del lenguaje",
+   "summary": "¿Puede una IA entender el sarcasmo? El significado depende de la intención más que de las palabras.",
+   "tags": [
+    "Sarcasmo",
+    "NLP",
+    "Intención"
+   ],
+   "hashtags": [
+    "#ArtificialIntelligence",
+    "#NLP",
+    "#NaturalLanguageProcessing",
+    "#LLM",
+    "#Embeddings",
+    "#AIEngineering",
+    "#MachineLearning",
+    "#HumanAI"
+   ],
+   "minutes": 5
+  },
+  {
+   "slug": "puede-una-ia-detectar-cuando-le-estas-tomando-el-pelo",
+   "title": "¿Puede una IA detectar cuando le estás tomando el pelo?",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Embeddings y procesamiento del lenguaje",
+   "summary": "Publicación con la misma frase y significados opuestos: el sarcasmo como gran reto para la IA actual.",
+   "tags": [
+    "Sarcasmo",
+    "IA",
+    "Contexto"
+   ],
+   "hashtags": [
+    "#InteligenciaArtificial",
+    "#Sarcasmo",
+    "#MachineLearning",
+    "#NLP",
+    "#Tecnología",
+    "#Innovación",
+    "#Humor",
+    "#ComunicaciónDigital"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "la-organizacion-de-la-jornada-de-trabajo-en-teleasistencia-mucho-mas-q",
+   "title": "La organización de la jornada de trabajo en Teleasistencia: mucho más que responder llamadas",
+   "type": "articulo",
+   "date": "2026-07-19",
+   "topic": "Teleasistencia",
+   "summary": "La jornada en teleasistencia es mucho más que responder llamadas: planificación, protocolos, herramientas y profesionales cualificados.",
+   "tags": [
+    "Teleasistencia",
+    "Organización",
+    "Atención sociosanitaria"
+   ],
+   "hashtags": [
+    "#Teleasistencia",
+    "#AtenciónSociosanitaria",
+    "#AtenciónCentradaEnLaPersona",
+    "#ServiciosSociales",
+    "#Dependencia",
+    "#EnvejecimientoActivo",
+    "#SaludDigital",
+    "#InnovaciónSocial"
+   ],
+   "minutes": 3
+  },
+  {
+   "slug": "la-importancia-de-una-llamada-bien-hecha-en-los-servicios-de-teleasist",
+   "title": "La importancia de una llamada bien hecha en los servicios de teleasistencia",
+   "type": "articulo",
+   "date": "2026-07-19",
+   "topic": "Teleasistencia",
+   "summary": "La llamada como herramienta de prevención y cuidado: protocolos y comunicación que dan seguridad y cercanía.",
+   "tags": [
+    "Teleasistencia",
+    "Comunicación",
+    "Protocolos"
+   ],
+   "hashtags": [
+    "#Teleasistencia",
+    "#AtenciónSociosanitaria",
+    "#ComunicaciónEfectiva",
+    "#AtenciónCentradaEnLaPersona",
+    "#CalidadAsistencial",
+    "#Empatía",
+    "#SaludDigital",
+    "#ServiciosSociales"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "que-hace-efectiva-una-llamada-de-teleasistencia",
+   "title": "¿Qué hace efectiva una llamada de teleasistencia?",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Teleasistencia",
+   "summary": "Publicación con esquema de fases, técnicas y buenas prácticas que convierten una llamada en una intervención profesional y humana.",
+   "tags": [
+    "Teleasistencia",
+    "Comunicación efectiva"
+   ],
+   "hashtags": [
+    "#Teleasistencia",
+    "#AtenciónSociosanitaria",
+    "#ComunicaciónEfectiva",
+    "#AtenciónCentradaEnLaPersona",
+    "#Empatía",
+    "#CalidadAsistencial",
+    "#Cuidados",
+    "#SaludDigital"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "la-gestion-de-la-informacion-en-teleasistencia-cuando-registrar-bien-t",
+   "title": "La gestión de la información en teleasistencia: cuando registrar bien también significa cuidar mejor",
+   "type": "articulo",
+   "date": "2026-07-19",
+   "topic": "Teleasistencia",
+   "summary": "Registrar, organizar y gestionar bien la información garantiza continuidad, coordinación y calidad asistencial en teleasistencia.",
+   "tags": [
+    "Teleasistencia",
+    "Gestión de la información",
+    "Calidad"
+   ],
+   "hashtags": [
+    "#Teleasistencia",
+    "#GestiónDeLaInformación",
+    "#CalidadAsistencial",
+    "#AtenciónSociosanitaria",
+    "#ProtecciónDeDatos",
+    "#SaludDigital",
+    "#AtenciónCentradaEnLaPersona",
+    "#TransformaciónDigital"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "estamos-preparados-para-el-reto-del-envejecimiento",
+   "title": "¿Estamos preparados para el reto del envejecimiento?",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Teleasistencia",
+   "summary": "Tendencias del sector sociosanitario: salud mental, prevención de la demencia, teleasistencia e innovación en el cuidado de mayores.",
+   "tags": [
+    "Envejecimiento",
+    "Personas mayores",
+    "Innovación"
+   ],
+   "hashtags": [
+    "#EnvejecimientoActivo",
+    "#PersonasMayores",
+    "#Gerontología",
+    "#SaludMental",
+    "#Demencia",
+    "#Teleasistencia",
+    "#Innovación",
+    "#Dependencia"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "quienes-hacen-posible-la-teleasistencia",
+   "title": "¿Quiénes hacen posible la teleasistencia?",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Teleasistencia",
+   "summary": "Los seis perfiles profesionales del equipo, de la dirección del proyecto a la primera respuesta en domicilio.",
+   "tags": [
+    "Equipo humano",
+    "Perfiles",
+    "Servicios sociales"
+   ],
+   "hashtags": [
+    "#Teleasistencia",
+    "#EquipoHumano",
+    "#ServiciosSociales",
+    "#CalidadAsistencial"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "derechos-y-deberes-en-teleasistencia",
+   "title": "Derechos y deberes en teleasistencia",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Teleasistencia",
+   "summary": "Los pilares de una atención humana y eficaz: derechos fundamentales y deberes de la persona teleoperadora.",
+   "tags": [
+    "Derechos",
+    "Deberes",
+    "Calidad asistencial"
+   ],
+   "hashtags": [
+    "#Teleasistencia",
+    "#DerechosYDeberes",
+    "#CalidadAsistencial",
+    "#Teleoperador",
+    "#ServiciosSociosanitarios",
+    "#FormaciónProfesional",
+    "#AtenciónPersonalizada",
+    "#MF1424"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "que-hay-detras-de-una-simple-llamada-de-teleasistencia",
+   "title": "¿Qué hay detrás de una simple llamada de teleasistencia?",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Teleasistencia",
+   "summary": "Hoja de ruta de una intervención de calidad: de la gestión rutinaria a la detección temprana de emergencias.",
+   "tags": [
+    "Teleasistencia",
+    "Intervención",
+    "Dependencia"
+   ],
+   "hashtags": [
+    "#Teleasistencia",
+    "#ServiciosSocioculturales",
+    "#AtenciónALaDependencia",
+    "#Teleoperador",
+    "#SaludYBienestar",
+    "#ProtocolosDeActuación",
+    "#FormaciónProfesional",
+    "#Cuidadores"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "una-agenda-bien-gestionada-puede-salvar-vidas",
+   "title": "Una agenda bien gestionada puede salvar vidas",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Teleasistencia",
+   "summary": "La gestión de agendas como acto de cuidado: detectar necesidades, prevenir emergencias y crear vínculos de confianza.",
+   "tags": [
+    "Gestión de agendas",
+    "Prevención",
+    "Confianza"
+   ],
+   "hashtags": [
+    "#Teleasistencia",
+    "#GestiónDeAgendas",
+    "#ServiciosSociosanitarios",
+    "#AtenciónTelefónica",
+    "#CuidadoDeMayores",
+    "#Dependencia",
+    "#SaludDigital",
+    "#Teleoperador"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "los-5-libros-de-registro-de-la-teleasistencia",
+   "title": "Los 5 libros de registro de la teleasistencia",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Teleasistencia",
+   "summary": "Los registros obligatorios que garantizan trazabilidad, cumplimiento normativo y calidad asistencial.",
+   "tags": [
+    "Trazabilidad",
+    "Registros",
+    "Normativa"
+   ],
+   "hashtags": [
+    "#Teleasistencia",
+    "#GestiónSanitaria",
+    "#CalidadAsistencial",
+    "#ServiciosSociosanitarios",
+    "#Dependencia",
+    "#Mayores",
+    "#SaludDigital",
+    "#GestiónDeServicios"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "no-todas-las-llamadas-de-teleasistencia-son-iguales",
+   "title": "No todas las llamadas de teleasistencia son iguales",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Teleasistencia",
+   "summary": "Guía para priorizar agendas, por ejemplo entre una medicación urgente y un seguimiento importante.",
+   "tags": [
+    "Agendas",
+    "Priorización",
+    "Teleasistencia"
+   ],
+   "hashtags": [
+    "#Teleasistencia",
+    "#ServiciosSocioculturales",
+    "#AtenciónALasPersonas",
+    "#TrabajoSocial",
+    "#Geriatría",
+    "#Dependencia",
+    "#Teleoperador",
+    "#Organización"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "una-sola-palabra-puede-marcar-la-diferencia",
+   "title": "Una sola palabra puede marcar la diferencia",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Teleasistencia",
+   "summary": "Cómo adaptar la comunicación a cada perfil de persona usuaria: mayores, víctimas de violencia, discapacidad y cuidadores.",
+   "tags": [
+    "Comunicación",
+    "Personalización",
+    "Humanización"
+   ],
+   "hashtags": [
+    "#TeleasistenciaHumanizada",
+    "#ComunicaciónQueCura",
+    "#AtenciónPersonalizada",
+    "#EmpatíaTelefónica",
+    "#ServiciosSociosanitarios",
+    "#ComunicaciónAdaptada",
+    "#CuidadoConPalabras",
+    "#TeleoperadorProfesional"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "una-llamada-puede-marcar-la-diferencia-entre-soledad-y-seguridad",
+   "title": "Una llamada puede marcar la diferencia entre soledad y seguridad",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Teleasistencia",
+   "summary": "Tipos de llamadas (informales, estructuradas, de seguimiento) y cómo adaptar su duración a cada necesidad.",
+   "tags": [
+    "Tipos de llamada",
+    "Comunicación",
+    "Cuidado"
+   ],
+   "hashtags": [
+    "#Teleasistencia",
+    "#ComunicaciónEfectiva",
+    "#AtenciónTelefónica",
+    "#ServiciosSociosanitarios",
+    "#CuidadoDeMayores",
+    "#Dependencia",
+    "#SaludYBienestar",
+    "#FormaciónSociosanitaria"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "mi-hipotesis-de-futuro-una-carrera-como-mapa-de-conexiones",
+   "title": "Mi Hipótesis de Futuro: una carrera como mapa de conexiones",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Trayectoria profesional",
+   "summary": "Ejercicio de estrategia profesional: integradora que conecta sanidad, IA, datos, comunicación y gestión del cambio.",
+   "tags": [
+    "Marca personal",
+    "Estrategia",
+    "Transformación digital"
+   ],
+   "hashtags": [
+    "#MarcaPersonal",
+    "#TransformaciónDigital",
+    "#SaludDigital",
+    "#EstrategiaProfesional",
+    "#DigiNOSIA",
+    "#HealthTech",
+    "#FuturoDelTrabajo"
+   ],
+   "minutes": 1
+  },
+  {
+   "slug": "mi-carrera-no-ha-sido-una-linea-recta-ha-sido-una-evolucion-estrategic",
+   "title": "Mi carrera no ha sido una línea recta, ha sido una evolución estratégica.",
+   "type": "articulo",
+   "date": "2026-10-11",
+   "topic": "Trayectoria profesional",
+   "summary": "Una trayectoria nacida de la curiosidad por la tecnología: del desarrollo de software y la docencia a la sanidad, los datos y la IA.",
+   "tags": [
+    "Trayectoria",
+    "IA",
+    "Datos"
+   ],
+   "hashtags": [
+    "#InteligenciaArtificial",
+    "#IngenieríaDeDatos",
+    "#DesarrolloDeSoftware",
+    "#IAGenerativa",
+    "#TecnologíaConPropósito",
+    "#InnovaciónAplicada",
+    "#Automatización",
+    "#DocenciaTech"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "mi-trayectoria-no-ha-sido-lineal",
+   "title": "Mi trayectoria no ha sido lineal",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Trayectoria profesional",
+   "summary": "Todas las etapas, del software a la documentación clínica, forman una misma evolución con propósito.",
+   "tags": [
+    "Trayectoria",
+    "Evolución profesional"
+   ],
+   "hashtags": [
+    "#InteligenciaArtificial",
+    "#IngenieríaDeDatos",
+    "#DesarrolloDeSoftware",
+    "#TransformaciónDigital",
+    "#HealthTech",
+    "#InnovaciónAplicada",
+    "#DocenciaTech",
+    "#TecnologíaConPropósito"
+   ],
+   "minutes": 2
+  },
+  {
+   "slug": "la-salud-tambien-se-construye-desde-la-gestion-y-la-tecnologia",
+   "title": "La salud también se construye desde la gestión y la tecnología",
+   "type": "publicacion",
+   "date": null,
+   "topic": "Trayectoria profesional",
+   "summary": "Cierre de trayectoria: la diversidad de experiencias converge en la salud digital y la gestión del conocimiento.",
+   "tags": [
+    "Salud digital",
+    "Gestión",
+    "Trayectoria"
+   ],
+   "hashtags": [
+    "#HealthTech",
+    "#SaludDigital",
+    "#TransformaciónDigital",
+    "#InteligenciaArtificial",
+    "#GestiónSanitaria",
+    "#DesarrolloDeSoftware",
+    "#AprendizajeContinuo"
+   ],
+   "minutes": 1
+  }
+ ]
+}
